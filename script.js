@@ -2,7 +2,7 @@
 
 const titleElement = document.querySelector(".title");
 const buttonsContainer = document.querySelector(".buttons");
-const yesButton = document.querySelector(".btn--yes");
+const yesButton = document.querySelector(".btn--si");
 const noButton = document.querySelector(".btn--no");
 const catImg = document.querySelector(".cat-img");
 
@@ -43,11 +43,11 @@ function resizeYesButton() {
 function generateMessage(noCount) {
   const messages = [
     "No",
-    "Are you sure?",
-    "Pookie please",
-    "Don't do this to me :(",
-    "You're breaking my heart",
-    "I'm gonna cry...",
+    "Pq pusiste q no? Odias a los gatos?",
+    "Odias a Kira y Maki?",
+    "No me hagas esto pon si ",
+    "Me haces daño Joyce, pon si",
+    "T odio, voy a llorar",
   ];
 
   const messageIndex = Math.min(noCount, messages.length - 1);
